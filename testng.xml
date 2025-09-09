@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="APITestSuite">
+    <test name="GetAndPostTests">
+        <classes>
+            <class name="register_positive_test" />
+            <class name="register_negative_test" />
+            <class name="login_positive_test" />
+            <class name="login_negative_test" />
+            <class name="create_negative_test" />
+        </classes>
+    </test>
+</suite>
